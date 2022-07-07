@@ -1,0 +1,264 @@
+#top{
+    background-color: #ee571b;
+    padding-bottom: 170px;
+}
+
+.text-center{
+    margin: auto;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.feat-text{
+    size: 1.5rem;
+    color: #34B3F1;
+    font-weight: bold;
+}
+
+a{
+    margin: 0px;
+}
+
+p{
+    margin: 0 15% ;
+}
+
+.expo{
+    text-align: left;
+}
+
+.rotated {
+    transform: rotate(25deg);
+    width: 17rem;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    z-index: 0;
+}
+
+/* .img-fluid{
+    width: 50%;
+} */
+
+.navbar{
+    color: white;
+    width: 80%;
+    padding-bottom: 4rem;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar-brand{
+    font-size: 4rem;
+}
+
+.capital{
+    color: #34B3F1;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    text-align: center;
+}
+
+.img-section{
+    position: relative;
+}
+
+.img-col{
+    padding-top: 2rem;
+}
+
+.download-btn{
+    margin: 2rem 10px 0 ;
+}
+
+.feature{
+    margin: 10px 0;
+}
+
+#second{
+    padding-top: 75px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.fa-circle-check{
+    color: #ee571b;
+    margin-bottom: 15px;
+    
+}
+
+.fa-circle-check:hover{
+    color: #ee291b;
+    
+}
+
+.fa-bullseye{
+    color: #ee571b;
+    margin-bottom: 15px;
+}
+
+.fa-bullseye:hover{
+    color: #ee291b;
+}
+
+.fa-dollar-sign{
+    color: #ee571b;
+    margin-bottom: 15px;
+}
+
+.fa-dollar-sign:hover{
+    color: #ee291b;
+}
+
+.mid-container{
+    height:fit-content;
+    padding-top: 100px;
+}
+
+#carousel{
+    background-color: #f54235;
+    color: white;
+}
+
+.carousel-item{
+    padding: 7% 10%;
+}
+
+.quote{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.review-img{
+    margin: 30px;
+    border-radius: 100px;
+    width: 15%;
+}
+
+#press{
+    background-color: #f54235 ;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-img{
+    width: 90%;
+    margin: 15px 0;
+}
+
+#plans{
+    padding: 100px 0;
+}
+
+.card{
+    padding: 10px 15px;
+}
+
+.plans-container{
+    height:fit-content;
+}
+
+.card-header{
+    background-color: rgb(199, 199, 199)
+}
+
+.price{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.benefits{
+    text-align: start;
+}
+
+.register-btn{
+    margin-top: 30px;
+    border-color: #34B3F1;
+    color: #34B3F1;
+    
+}
+
+.register-btn-dark{
+    margin-top: 30px;
+    background-color: #34B3F1;
+    border-color: white;
+}
+
+.register-btn:hover{
+    background-color: #34B3F1;
+    border-color: white;
+}
+
+.register-btn-dark:hover{
+    background-color: #34B3F1;
+}
+
+.wrap{
+    text-align: center;
+    background-color: #ee571b;
+    padding: 80px 0;
+}
+
+.end-text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.75rem;
+}
+
+.foot-icon{
+    padding: 0 15px;
+}
+
+@media (max-width: 1000px) {
+    .rotated{
+        transform: rotate(0deg);
+        width: 17rem;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        text-align: center;
+    }
+    
+    .expo{
+        text-align: center;
+    }
+
+    #top{
+        padding-bottom: 20px;
+    }
+
+    .quote{
+        font-size: 2rem;
+    }
+
+    .review-img{
+        margin: 15px;
+    }
+
+    .reviews{
+        width: 100%;
+    }
+}
